@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace Nusfjord.Coast
+namespace Nusfjord.Cost
 {
-    public class EmptyResourceCoast : IResourceCost
+    public class EmptyResourceCost : IResourceCost
     {
         public int WoodCost { get; } = 0;
         public int FishCost { get; } = 0;
@@ -10,7 +10,7 @@ namespace Nusfjord.Coast
 
         public static List<IResourceCost> CreateEmptyResourceCostsList()
         {
-            return new List<IResourceCost>{new EmptyResourceCoast()};
+            return new List<IResourceCost>{new EmptyResourceCost()};
         }
     }
 }

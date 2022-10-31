@@ -1,4 +1,4 @@
-﻿namespace Nusfjord.Coast
+﻿namespace Nusfjord.Cost
 {
     public interface IResourceCost
     {

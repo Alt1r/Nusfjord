@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Nusfjord.Coast;
+using Nusfjord.Cost;
 
 namespace Nusfjord.BuildableObject.Construction
 {

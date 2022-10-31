@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Nusfjord.Coast;
+using Nusfjord.Cost;
 
 namespace Nusfjord.BuildableObject.Boat
 {
@@ -16,7 +16,7 @@ namespace Nusfjord.BuildableObject.Boat
 
         public string Name { get; } = launchName;
         public int VictoryPoints { get; } = launchVictoryPoints;
-        public List<IResourceCost> ResourceCoastList { get; set; } = new List<IResourceCost>{new ResourceCoast(woodCost: launchWoodCost, goldCoast: launchGoldCost)};
+        public List<IResourceCost> ResourceCoastList { get; set; } = new List<IResourceCost>{new ResourceCost(woodCost: launchWoodCost, goldCoast: launchGoldCost)};
         public int Length { get; } = LauncthBoatLength;
     }
 }

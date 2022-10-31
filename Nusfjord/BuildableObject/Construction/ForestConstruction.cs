@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Nusfjord.Coast;
+using Nusfjord.Cost;
 
 namespace Nusfjord.BuildableObject.Construction
 {
@@ -15,7 +15,7 @@ namespace Nusfjord.BuildableObject.Construction
 
         public string Name { get; } = ForestName;
         public int VictoryPoints { get; } = ForestVictotyPoints;
-        public List<IResourceCost> ResourceCoastList { get; set; } = EmptyResourceCoast.CreateEmptyResourceCostsList();
+        public List<IResourceCost> ResourceCoastList { get; set; } = EmptyResourceCost.CreateEmptyResourceCostsList();
         
         #endregion
 
